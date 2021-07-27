@@ -1,0 +1,44 @@
+@media (max-width: 36em) {
+    .container {
+        margin: 100px auto;
+        position: unset;
+        top: 0;
+        left: 0;
+        transform: translate(0, 0);
+    }
+
+    section.lp-content {
+        & .container {            
+            & .block-text {
+                flex-basis: 100%;
+                text-align: center;
+                margin-bottom: 50px;
+
+                & h1 {
+                    font-size: 2em;
+                    line-height: 1.2;
+                }
+
+                & p {
+                    font-size: .9em;
+                }
+            }
+
+            & .block-form {
+                flex-basis: 100%;
+                padding: 0px;
+
+                & .free-test {
+                    padding: 15px 50px;
+                    font-size: .875em;
+                }
+
+                & .form-area {
+                    & p {
+                        font-size: .5em;
+                    }
+                }
+            }
+        }
+    }
+}
