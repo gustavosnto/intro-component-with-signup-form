@@ -70,6 +70,7 @@ section.lp-content .container .block-form .free-test {
   color: var(--color-white);
   font-weight: 400;
   border-radius: 8px;
+  border-bottom: 5px solid #00000040;
 }
 
 section.lp-content .container .block-form .form-area {
@@ -100,6 +101,7 @@ section.lp-content .container .block-form .form-area button {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1em;
+  cursor: pointer;
 }
 
 section.lp-content .container .block-form .form-area p {
